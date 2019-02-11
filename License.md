@@ -1,33 +1,29 @@
-# Convertisseur MD en HTML
-
-Pour pouvoir utiliser ce convertisseur vous aurez besoin de:
-* Markdown2
-* Argparse
-
-Pour les installer rentrez:
-* **Markdown2 :** `pip install markdown2`
-* **Argparse :** `pip install argparse`
-
-Ensuite clonez ce repository puis allez dans le fichier cloné.
-
-Puis dans votre invité de commande rentrez:
-
-`python main.py -i fichier_a_convertir.md -o nom_du_fichier_converti.html`
-
-ou
-
-`python main.py --input fichier_a_convertir.md --output nom_du_fichier_converti.html`
-
-Le -i ou --input va permettre d'ouvrir le fichier à convertir et -o ou --output va permettre de choisir le fichier ou sera conservé les changements.
-
-Toutefois vous pouvez aussi rajouter des options supplémentaires comme cela:
-
-`python index.py -i fichier_a_convertir.md -o nom_du_fichier_converti.html -a`
-
-Le -a va permettre de traduire en allemand le fichier.
-Pour plus d'options vous pouvez aussi tapez:
-
-`python index.py -h`
-
-## Licence
 BSD 3-Clause License
+
+Copyright (c) 2018-2019, Vincent Poulailleau
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+* Neither the name of the copyright holder nor the names of its
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
